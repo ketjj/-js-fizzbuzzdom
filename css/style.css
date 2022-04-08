@@ -1,0 +1,38 @@
+body{
+  background-color: #083b4c;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(244, 79, 79);
+  text-align:center;
+}
+/* .debug {
+  background-color: blueviolet;
+} */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto; 
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px; 
+  color:black;
+  margin: 10px;
+  background-color: #1389b2;
+}
+
+.fizzcolor{
+  background-color: #0bd6a1;
+}
+
+.buzzcolor{
+  background-color: #ffd166;
+}
+
+.fizzandbuzzcolor{
+  background-color: #f0466f;
+}
