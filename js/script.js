@@ -8,7 +8,7 @@ const limit = 100;
 for(let i=1; i <= limit; i++){
   const boxx = document.createElement("div");
   boxx.className = "box";
-
+  boxx.append(i)
 
   // **MILESTONE 1**
   // Per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz.
@@ -24,6 +24,8 @@ for(let i=1; i <= limit; i++){
   } else if (i % 3 === 0) {
     boxx.textContent = 'Fizz';;
   }
+
+  container.append(boxx)
 
 }
 
