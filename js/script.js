@@ -16,13 +16,16 @@ for(let i=1; i <= limit; i++){
 
 
   if(i % 3 === 0 && i % 5 === 0){
-    boxx.textContent = 'FizzBuzz';;
+    boxx.textContent = 'FizzBuzz';
+    boxx.classList.add("fizzandbuzzcolor");
 
   } else if(i % 5 === 0) {
     boxx.textContent = 'Buzz';
+    boxx.classList.add("buzzcolor");
 
   } else if (i % 3 === 0) {
-    boxx.textContent = 'Fizz';;
+    boxx.textContent = 'Fizz';
+    boxx.classList.add("fizzcolor");
   }
 
   container.append(boxx)
